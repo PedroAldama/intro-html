@@ -1,179 +1,214 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Freelancer - Star Bootstrap Theme</title>
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>Freelancer - Star Bootstrap Theme</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style type="text/css">
-    
-    header{
-        background-image: url('ruby.jpg') ;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-position: center center;
-        background-size: cover;
-        padding-top: 300px;
-        padding-bottom: 200px;
 
-    }
-    .heightAdder{
-        height: 1000px;
-    }
+        header {
+            background-image: url('ruby.jpg');
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center center;
+            background-size: cover;
+            height: 70vw;
+            width: 100%;
+        }
 
-@media(min-width: 992px){
-    #mainNav{
-        padding-top: 25px;
-        padding-bottom: 25px;
-        transition: padding-top: 0.3s, padding-bottom: 0.3s;
-        border: none;
-        background-color: transparent;
-    }
-    #mainNav .navbar-brand{
-        font-size: 1.75em;
-        transition: all 0.3s;
-    }
-    #mainNav .navbar-nav .nav-item .nav-link{
-        padding: 1.1em 1em !important;
-    }
-    #mainNav .navbar-shrink{
-        padding-top: 0;
-        padding-bottom: 0;
-        background-color: black;
-    }
-    #mainNav .navbar-shrink .navbar-brand{
-        font-size: 1.23em;
-        padding: 12px 0;
-    }
-}
-</style>
+        .heightAdder {
+            height: 1000px;
+        }
+
+        @media(min-width: 992px) {
+            #mainNav {
+                padding-top: 25px;
+                padding-bottom: 25px;
+                transition: padding-top: 0.3s, padding-bottom: 0.3s;
+                border: none;
+                background-color: transparent;
+            }
+
+                #mainNav .navbar-brand {
+                    font-size: 1.75em;
+                    transition: all 0.3s;
+                }
+
+                #mainNav .navbar-nav .nav-item .nav-link {
+                    padding: 1.1em 1em !important;
+                }
+
+                #mainNav .navbar-shrink {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    background-color: black;
+                }
+
+                    #mainNav .navbar-shrink .navbar-brand {
+                        font-size: 1.23em;
+                        padding: 12px 0;
+                    }
+        }
+    </style>
 
 </head>
-<body id="top"> 
+<body id="top">
     <div class="container">
-         <nav class="navbar navbar-expand-lg  text-uppercase fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg  text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">Menu <i class="fa fa-bars"></i></button>
-                       <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
-                        <ul class="navbar-nav text-uppercase " >
-               
-                            <li class="nav-item"><a class="nav-link js-scroll-trigge " href="#portfolio">Portfolio</a></li>
-                            <li class="nav-item"><a class="nav-link js-scroll-trigge " href="#about">About</a></li>
-                            <li class="nav-item"><a class="nav-link js-scroll-trigge " href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">Menu <i class="fa fa-bars"></i></button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ">
+
+                        <li class="nav-item"><a class="nav-link js-scroll-trigge " href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigge " href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigge " href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <!--
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#top">Navbar</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">Menu <i class="fa fa-bars"></i></button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ml-auto" >
-               
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Sub-Link 1</a>
-                  <a class="dropdown-item" href="#">Sub-Link 2</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Sub-Link 3</a>
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#top">Navbar</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">Menu <i class="fa fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto" >
+
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Sub-Link 1</a>
+                          <a class="dropdown-item" href="#">Sub-Link 2</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Sub-Link 3</a>
+                        </div>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link1">Link1</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link2">Link2</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link3">Link3</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link4">Link4</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link5">Link5</a></li>
+                    </ul>
                 </div>
-                </li>
-               
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link1">Link1</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link2">Link2</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link3">Link3</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link4">Link4</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link5">Link5</a></li>
-            </ul>
-        </div>
+            </div>
+        </nav>-->
     </div>
-</nav>-->
-</div>  
     <header class="masterhead">
-       <div class="containter">  
+        <div class="containter">
 
-       </div>   
-   </header>
+        </div>
+    </header>
 
-<div class="container mt-5">
-    <ul class="nav nav-pills nav-fill">
+    <div class="container mt-5">
+        <ul class="nav nav-pills nav-fill">
 
-<li class="nav-item">
-    <a href="" class="nav-link active">Ruby</a>
-</li>        
+            <li class="nav-item">
+                <button type="button" class="btn btn-primary" id="ruby">Ruby</button>
+            </li>
 
-<li class="nav-item">
-    <a href="" class="nav-link">Weiss</a>
-</li>
-<li class="nav-item">
-    <a href="" class="nav-link">Blake</a>
-</li>
-<li class="nav-item">
-    <a href="" class="nav-link">Yang</a>
-</li>
-
-    </ul>
-
-</div>
-
-
-<div class="container mt-5">
-    
-    <nav arial-label="breadcrumb ">
-        <ol class="breadcrumb justify-content-around">
-
-<li class="breadcrumb-item active" aria-current="page"><a href="">Rose</a></li>
-<li class="breadcrumb-item"><a href="">Shnee</a></li>
-<li class="breadcrumb-item"><a href="">Belladona</a></li>
-<li class="breadcrumb-item"><a href="">XiaoLong</a></li>
-       
-
-        </ol>
-
-    </nav>
-
-</div>
-
-
-<div class="container mt-5">
-    <h4 class="text-center">Chapters</h4>
-    <nav aria-label="Chapter Links">
-        
-        <ul class="pagination justify-content-center">
-            <li class="page-item"><a class="page-link" href="#" aria-label="Previous">
-                
-                <span aria-hidden="true">&laquo;</span>
-                <span class="sr-only">Previous</span>
-
-            </a></li>
-            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">4</a></li>
-            <li class="page-item"><a class="page-link" href="#">5</a></li>
-              <li class="page-item"><a class="page-link" href="#" aria-label="Next">
-                
-                <span aria-hidden="true">&raquo;</span>
-                <span class="sr-only">Next</span>
-
-            </a></li>
-
+            <li class="nav-item">
+                <button type="button" class="btn btn-primary" id="weiss">Weiss</button>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="btn btn-primary" id="blake">Blake</button>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="btn btn-primary" id="yang">Yang</button>
+            </li>
 
         </ul>
 
-    </nav>
-</div>
-<div class="heightAdder"></div>
-<script scr="navbar-shrinker.js"></script>
+    </div>
 
+
+    <div class="container mt-5">
+
+        <nav arial-label="breadcrumb ">
+            <ol class="breadcrumb justify-content-around">
+
+                <li class="breadcrumb-item active" aria-current="page"><a href="">Rose</a></li>
+                <li class="breadcrumb-item"><a href="">Shnee</a></li>
+                <li class="breadcrumb-item"><a href="">Belladona</a></li>
+                <li class="breadcrumb-item"><a href="">XiaoLong</a></li>
+
+
+            </ol>
+
+        </nav>
+
+    </div>
+
+
+    <div class="container mt-5">
+        <h4 class="text-center">Chapters</h4>
+        <nav aria-label="Chapter Links">
+
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+
+                    </a>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+
+                    </a>
+                </li>
+
+
+            </ul>
+
+        </nav>
+    </div>
+    <div class="heightAdder"></div>
+    <script scr="javaScript.js"></script>
+    <script type="text/javascript">
+        $(function(){
+
+            $('#weiss').click(function(){
+
+
+                $('.masterhead').css({"background-image" : "url('weiss.png')"});
+           });
+
+            $('#ruby').click(function(){
+
+
+                $('.masterhead').css({"background-image" : "url('ruby.jpg')"});
+           });
+            $('#blake').click(function(){
+
+
+                $('.masterhead').css({"background-image" : "url('blake.jpg')"});
+           });
+            $('#yang').click(function(){
+
+
+                $('.masterhead').css({"background-image" : "url('yang.png')"});
+           });
+
+
+
+        });
+    </script>
 </body>
 </html>
